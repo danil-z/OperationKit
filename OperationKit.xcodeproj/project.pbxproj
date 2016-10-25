@@ -105,7 +105,8 @@
 				83DB50981D91021D006AA444 /* Info.plist */,
 				8305DD361D911177004CBC4E /* XCTestOperation.swift */,
 			);
-			path = OperationKitTests;
+			name = OperationKitTests;
+			path = Tests/OperationKitTests;
 			sourceTree = "<group>";
 		};
 		83DB50A41D910284006AA444 /* Sources */ = {
