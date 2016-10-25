@@ -20,6 +20,7 @@
 		83DB50971D91021D006AA444 /* OKOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DB50961D91021D006AA444 /* OKOperationTests.swift */; };
 		83DB50991D91021D006AA444 /* OperationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 83DB508B1D91021C006AA444 /* OperationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83DB50A61D9102AE006AA444 /* OKOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DB50A51D9102AE006AA444 /* OKOperation.swift */; };
+		83E3E6591DBF142900CF2877 /* BlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E3E6581DBF142900CF2877 /* BlockOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		83DB50961D91021D006AA444 /* OKOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKOperationTests.swift; sourceTree = "<group>"; };
 		83DB50981D91021D006AA444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83DB50A51D9102AE006AA444 /* OKOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OKOperation.swift; sourceTree = "<group>"; };
+		83E3E6581DBF142900CF2877 /* BlockOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				8305DD341D910E7C004CBC4E /* ExclusivityController.swift */,
 				8305DD321D910DEF004CBC4E /* Operation+Operations.swift */,
 				8305DD301D910CC5004CBC4E /* BlockObserver.swift */,
+				83E3E6581DBF142900CF2877 /* BlockOperation.swift */,
 				8305DD2E1D910C7A004CBC4E /* OperationQueue.swift */,
 				8305DD2C1D910AD7004CBC4E /* OperationObserver.swift */,
 				8305DD2A1D910A62004CBC4E /* OperationErrors.swift */,
@@ -239,6 +242,7 @@
 				8305DD331D910DEF004CBC4E /* Operation+Operations.swift in Sources */,
 				8305DD351D910E7C004CBC4E /* ExclusivityController.swift in Sources */,
 				83DB50A61D9102AE006AA444 /* OKOperation.swift in Sources */,
+				83E3E6591DBF142900CF2877 /* BlockOperation.swift in Sources */,
 				8305DD311D910CC5004CBC4E /* BlockObserver.swift in Sources */,
 				8305DD2F1D910C7A004CBC4E /* OperationQueue.swift in Sources */,
 				8305DD271D9103F8004CBC4E /* NSLock+Operations.swift in Sources */,
